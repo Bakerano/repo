@@ -43,24 +43,3 @@ public class Coronavirus {
 
 
 }
-
-class coronaV extends Coronavirus{
-
-    private int DiesDeQuarentena;
-
-
-    coronaV(){
-        super();
-        DiesDeQuarentena = 0;
-    }
-
-    coronaV(int x) {
-        super();
-        DiesDeQuarentena = x;
-    }
-
-    coronaV(coronaV cv) {
-        super();
-        DiesDeQuarentena = cv.DiesDeQuarentena;
-    }
-}
